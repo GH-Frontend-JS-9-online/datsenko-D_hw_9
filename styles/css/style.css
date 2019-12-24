@@ -1,0 +1,240 @@
+/* Welcome to Compass. Use this file to write IE specific override styles.
+ * Import this file using the following HTML or equivalent:
+ * <!--[if IE]>
+ *   <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+ * <![endif]--> */
+/* line 5, ../../../../../../.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 6, ../sass/_global.scss */
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+/* line 12, ../sass/_global.scss */
+a, p {
+  text-decoration: none !important;
+}
+
+/* line 16, ../sass/_global.scss */
+a, button, i, input, span {
+  -webkit-transition: 0.2s ease-out !important;
+  -moz-transition: 0.2s ease-out !important;
+  -o-transition: 0.2s ease-out !important;
+  transition: 0.2s ease-out !important;
+}
+
+/* line 23, ../sass/_global.scss */
+ul {
+  list-style: none !important;
+}
+
+/* line 27, ../sass/_global.scss */
+div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6,
+ul, ol, li, dl, dt, dd, table, td, tr, form, fieldset, label,
+select, input, textarea {
+  padding: 0;
+  margin: 0;
+  line-height: 1em;
+}
+
+/* line 35, ../sass/_global.scss */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 39, ../sass/_global.scss */
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* line 46, ../sass/_global.scss */
+.tamagochi {
+  overflow: hidden;
+  height: 100vh;
+  background: #843534;
+}
+/* line 50, ../sass/_global.scss */
+.tamagochi h1 {
+  text-align: center;
+  font-size: 50px;
+  margin: 20px 0 40px;
+}
+/* line 55, ../sass/_global.scss */
+.tamagochi .tamagochi-pet {
+  background: currentColor;
+  padding: 25px;
+  border-radius: 20%;
+  border: 1px solid #843534;
+}
+/* line 61, ../sass/_global.scss */
+.tamagochi .tamagochi-pet #CounterTime p {
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+}
+/* line 67, ../sass/_global.scss */
+.tamagochi .tamagochi-pet .stats {
+  margin-bottom: 40px;
+}
+/* line 70, ../sass/_global.scss */
+.tamagochi .tamagochi-pet .stats li {
+  display: flex;
+  align-items: center;
+}
+/* line 73, ../sass/_global.scss */
+.tamagochi .tamagochi-pet .stats li h3 {
+  color: #fff;
+}
+/* line 76, ../sass/_global.scss */
+.tamagochi .tamagochi-pet .stats li .pet-interest__food {
+  background: #d58512;
+  width: 100%;
+  height: 30px;
+  padding: 3px;
+}
+/* line 82, ../sass/_global.scss */
+.tamagochi .tamagochi-pet .stats li .pet-interest__clean {
+  background: #5bc0de;
+  width: 100%;
+  height: 30px;
+  padding: 3px;
+}
+/* line 88, ../sass/_global.scss */
+.tamagochi .tamagochi-pet .stats li .pet-interest__happiness {
+  background: #4cae4c;
+  width: 100%;
+  height: 30px;
+  padding: 3px;
+}
+/* line 94, ../sass/_global.scss */
+.tamagochi .tamagochi-pet .stats li h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+/* line 98, ../sass/_global.scss */
+.tamagochi .tamagochi-pet .stats li .food-pet, .tamagochi .tamagochi-pet .stats li .clean-pet, .tamagochi .tamagochi-pet .stats li .happiness-pet {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 5px 10px 0;
+}
+/* line 104, ../sass/_global.scss */
+.tamagochi .tamagochi-pet .stats li .food-pet {
+  color: #d58512;
+}
+/* line 107, ../sass/_global.scss */
+.tamagochi .tamagochi-pet .stats li .clean-pet {
+  color: #5bc0de;
+}
+/* line 110, ../sass/_global.scss */
+.tamagochi .tamagochi-pet .stats li .happiness-pet {
+  color: #4cae4c;
+}
+/* line 113, ../sass/_global.scss */
+.tamagochi .tamagochi-pet .stats li progress {
+  width: 30em;
+}
+/* line 119, ../sass/_global.scss */
+.tamagochi .tamagochi-pet img {
+  width: 15%;
+  display: block;
+  margin: 0 auto 5px;
+}
+/* line 124, ../sass/_global.scss */
+.tamagochi .tamagochi-pet .actions {
+  display: flex;
+  justify-content: center;
+}
+/* line 127, ../sass/_global.scss */
+.tamagochi .tamagochi-pet .actions li {
+  margin: 0 20px;
+}
+/* line 129, ../sass/_global.scss */
+.tamagochi .tamagochi-pet .actions li button {
+  padding: 10px 25px;
+  outline: none;
+  border-radius: 10px;
+}
+/* line 135, ../sass/_global.scss */
+.tamagochi .tamagochi-pet .actions li .eat-pet {
+  background: #d58512;
+}
+/* line 138, ../sass/_global.scss */
+.tamagochi .tamagochi-pet .actions li .wash-pet {
+  background: #5bc0de;
+}
+/* line 141, ../sass/_global.scss */
+.tamagochi .tamagochi-pet .actions li .run-pet {
+  background: #4cae4c;
+}

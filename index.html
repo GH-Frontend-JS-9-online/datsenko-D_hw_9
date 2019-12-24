@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tamagochi</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <link href="styles/css/normalize.css" rel="stylesheet" />
+    <link href="styles/css/style.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="tamagochi">
+        <div class="container">
+            <h1>Tamagochi.pet</h1>
+            <div class="tamagochi-pet">
+                <div id="CounterTime">
+                    <p><output type="inline" id="TimeValue" value="0">0</output></p>
+                </div>
+                <ul class="stats">
+                    <li>
+                        <h3>Status</h3>
+                    </li>
+                    <li>
+                        <span class="food-pet">food:</span>
+                        <progress id="food" min="0" max="100" value="100"></progress>
+                        <!--<div id="food" class="pet-interest__food"></div>-->
+                    </li>
+                    <li>
+                        <span class="clean-pet">clean:</span>
+                        <progress  id="clean" min="0" max="100" value="100"></progress>
+                        <!--<div id="clean" class="pet-interest__clean"></div>-->
+                    </li>
+                    <li>
+                        <span class="happiness-pet">happiness:</span>
+                        <progress  id="happiness" min="0" max="100" value="100"></progress>
+                        <!--<div id="happiness" class="pet-interest__happiness"></div>-->
+                    </li>
+                </ul>
+
+                <img class="pet" id="pet" src="images/mops_smile.png" align="Mops_smile" />
+
+                <ul class="actions">
+                    <li>
+                        <button onclick="FoodP()" class="eat-pet">eat</button>
+                    </li>
+                    <li>
+                        <button onclick="CleanP()"  class="wash-pet">wash</button>
+                    </li>
+                    <li>
+                        <button onclick="HappinessP()"  class="run-pet">run</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+<script src="js/main.js"></script>
+</body>
+</html>
